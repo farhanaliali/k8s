@@ -1,0 +1,14 @@
+  kind: "Endpoints"
+  apiVersion: "v1"
+  metadata:
+    name: "external-python-service" 
+  subsets: 
+    -
+      addresses:
+        -
+          ip: "192.168.70.37"
+          ip: "192.168.70.38" 
+      ports:
+        -
+          port: 5000 
+          name: "python"

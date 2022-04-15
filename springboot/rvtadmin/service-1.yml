@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+        name: service-1
+        labels:
+                app: service-1
+
+spec:
+    template:
+       metadata:
+           labels:
+              app: service-1
+              version: v1
+       spec:
+         serviceAccountName: api-service-account
+         containers:
+         -   name: service
+             image: harbor.rockvillegroup.com/ropay/service-1:latest
+             ports:
+               -   containerPort: 8085
+
+
+    selector:
+               matchLabels:
+                   app: service-1
+                   version: v1
+
+

@@ -1,0 +1,11 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: gateway-app
+spec:
+  selector:
+    app: gateway-app
+  type: NodePort
+  ports:
+    - port: 80
+      targetPort: 9090

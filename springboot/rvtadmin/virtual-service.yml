@@ -1,0 +1,15 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+    name: service1
+spec:
+    hosts:
+#    - nginx-app.testapp.svc.cluster.local
+     - test.com
+    gateways:
+     - springapp
+    http:
+    - route:
+      - destination:
+          host: service1
+

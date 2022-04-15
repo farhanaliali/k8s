@@ -1,0 +1,33 @@
+version: '3.9'
+services:
+  rabbit:
+    image: "rabbitmq:3-management"
+    hostname: "rabbit"
+    networks:
+      - account_service_net
+    environment:
+      RABBITMQ_ERLANG_COOKIE: ${co}
+      RABBITMQ_DEFAULT_USER:  ${default_user}
+      RABBITMQ_DEFAULT_PASS:  ${default_pass}
+      RABBITMQ_DEFAULT_VHOST: ${default_vhost}
+    labels:
+      NAME: "rabbitmq"
+
+  postgres:
+    container_name: postgres
+    image: postgres:latest
+    restart: always
+    networks:
+      - account_service_net
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+      PGDATA: /var/lib/postgresql/data/pgdata
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+
+networks:
+  account_service_net:
+    driver: bridge
+    name: account_service_net

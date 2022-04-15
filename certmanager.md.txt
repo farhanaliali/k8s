@@ -1,0 +1,128 @@
+------------>Cert Manager
+-------------> Self_Sign_certificate
+
+
+
+
+
+
+-----------> Cert manager
+
+Install Cert Manager and Configure SSL
+
+Install via menifest 
+		
+		 kubectl apply -f https://github.com/cert-manager/cert-manager/releases/download/v1.7.1/cert-manager.yaml
+
+Creating a Certificate Issuer
+
+Create a YAML file in your working directory and name it issuer.yml. Add the following content:
+			
+apiVersion: cert-manager.io/v1
+kind: ClusterIssuer
+metadata:
+  name: letsencrypt-prod
+spec:
+  acme:
+    server: https://acme-staging-v02.api.letsencrypt.org/directory
+    email: example@example.com
+    privateKeySecretRef:
+      name: letsencrypt-prod
+    solvers:
+      - http01:
+          ingress:
+            class: nginx
+				
+
+You must replace the email address with your own contact email. This will be included in your certificates. Let’s Encrypt may also email you at the address if it needs to send you alerts about your certificates.
+
+
+			kubectl create -f issuer.yml
+			
+
+Then test the issuer 
+
+		kubectl describe  clusterissuer letsencrypt-prod
+
+Now Create  Certificate and compelete dns challange 
+
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: rvt-test
+  namespace: default
+spec:
+  dnsNames:
+    - rvt.test.com
+  secretName: rvt-test-tls
+  issuerRef:
+    name: letsencrypt-prod
+    kind: ClusterIssuer
+
+
+		sudo create -f get_certificate.yml
+		kubectl get secret
+
+check if certificate exits in sercert just configure  ingress resource according to ssl guide and add below annotation 
+
+
+		annotations:
+			cert-manager.io/cluster-issuer: letsencrypt-prod
+
+
+
+
+
+####################################
+
+
+------------>  Self_Sign_certificate
+
+Step 1: Generate a CA private key
+
+		openssl genrsa -out ca.key 2048
+
+Step 2: Create a self-signed certificate, valid for 365 days.
+		openssl req -x509 \
+			-new -nodes  \
+			-days 365 \
+			-key ca.key \
+			-out ca.crt \
+			-subj "/CN=test.com"
+  
+  
+ 
+ Step 3: Now, create the tls secret using the kubectl command or using the yaml definition.
+ 
+			kubectl create secret tls test.com --key ca.key --cert ca.crt
+
+
+Step 4:   Create ingress resource 
+
+
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+ name: test
+ annotations:
+    
+    nginx.ingress.kubernetes.io/rewrite-target: /$2
+    kubernetes.io/ingress.class: "nginx"
+spec:
+ rules:
+ - host: test.com
+   http:
+     paths:
+     - path: /
+       pathType: Prefix
+       backend:
+         service:
+           name: nginx 
+           port:
+             number: 80
+ tls:
+   - hosts:
+      -   test.ropay.pk
+     secretName: test.com
+
+

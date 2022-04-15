@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: nginx
+  name: nginx
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - image: nginx
+        name: nginx
+      - name: sidecar
+        image: busybox
+        command: ['sh','-c','while true; do echo this is side car ;sleep 5;done']
+      initContainers:
+      - name: busybox
+        image: busybox
+        command: ['sh','-c', "until nslookup db-service ;do echo wating for database ;sleep 5;done"]

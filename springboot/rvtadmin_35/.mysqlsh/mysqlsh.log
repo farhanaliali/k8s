@@ -1,0 +1,1076 @@
+2022-03-11 07:49:20: Info: Using credential store helper: /usr/bin/mysql-secret-store-login-path
+2022-03-11 07:49:20: Info: Setting Python home to '/usr/lib/mysqlsh'
+2022-03-11 07:49:20: Info: Loading startup files...
+2022-03-11 07:49:20: Info: Loading plugins...
+2022-03-11 07:49:50: Info: About to connect to MySQL at: mysql://root@localhost:3306?connect-timeout=5000
+2022-03-11 07:49:57: Info: Validating account root@localhost...
+2022-03-11 07:49:57: Error: Cannot use host 'microk8s-master1' for instance 'microk8s-master1:3306' because it resolves to an IP address (127.0.1.1) that does not match a real network interface, thus it is not supported. Change your system settings and/or set the MySQL server 'report_host' variable to a hostname that resolves to a supported IP address.
+2022-03-11 07:51:18: Info: Using credential store helper: /usr/bin/mysql-secret-store-login-path
+2022-03-11 07:51:18: Info: Setting Python home to '/usr/lib/mysqlsh'
+2022-03-11 07:51:19: Info: Loading startup files...
+2022-03-11 07:51:19: Info: Loading plugins...
+2022-03-11 07:51:37: Info: About to connect to MySQL at: mysql://root@db1.local:3306?connect-timeout=5000
+2022-03-11 07:56:37: Info: Using credential store helper: /usr/bin/mysql-secret-store-login-path
+2022-03-11 07:56:37: Info: Setting Python home to '/usr/lib/mysqlsh'
+2022-03-11 07:56:37: Info: Loading startup files...
+2022-03-11 07:56:37: Info: Loading plugins...
+2022-03-11 07:57:24: Info: About to connect to MySQL at: mysql://rvtadmin@db01:3306?connect-timeout=5000
+2022-03-11 07:57:34: Info: About to connect to MySQL at: mysql://rvtadmin@db01:3306?connect-timeout=5000
+2022-03-11 07:57:47: Info: About to connect to MySQL at: mysql://rvtadmin@db1.local:3306?connect-timeout=5000
+2022-03-11 07:57:50: Info: Validating account rvtadmin@%...
+2022-03-11 07:57:50: Error: Cannot use host 'microk8s-master1' for instance 'microk8s-master1:3306' because it resolves to an IP address (127.0.1.1) that does not match a real network interface, thus it is not supported. Change your system settings and/or set the MySQL server 'report_host' variable to a hostname that resolves to a supported IP address.
+2022-03-11 07:58:39: Info: Using credential store helper: /usr/bin/mysql-secret-store-login-path
+2022-03-11 07:58:39: Info: Setting Python home to '/usr/lib/mysqlsh'
+2022-03-11 07:58:39: Info: Loading startup files...
+2022-03-11 07:58:39: Info: Loading plugins...
+2022-03-11 07:58:52: Info: About to connect to MySQL at: mysql://rvtadmin@db1.local:3306?connect-timeout=5000
+2022-03-11 07:58:52: Info: Validating account rvtadmin@%...
+2022-03-11 07:58:52: Info: rvtadmin user has 1 accounts with wildcard or netmask and 0 without
+2022-03-11 07:58:52: Info: Validating InnoDB page size of instance 'microk8s-master1:3306'.
+2022-03-11 07:58:52: Info: Checking if performance_schema is enabled on instance 'microk8s-master1:3306'.
+2022-03-11 07:58:52: Info: Validating configuration of microk8s-master1:3306 (mycnf = )
+2022-03-11 07:58:52: Info: Some configuration options need to be fixed:
+2022-03-11 07:59:00: Info: MySQL server at microk8s-master1:3306 was restarted.
+2022-03-11 08:04:09: Info: About to connect to MySQL at: rvtadmin@db1.local:3306
+2022-03-11 08:04:27: Info: About to connect to MySQL at: mysql://rvtadmin@db1.local:3306?connect-timeout=5000
+2022-03-11 08:04:27: Info: About to connect to MySQL at: mysql://rvtadmin@db1.local:3306?connect-timeout=5000
+2022-03-11 08:04:27: Info: Validating account rvtadmin@%...
+2022-03-11 08:04:27: Info: rvtadmin user has 1 accounts with wildcard or netmask and 0 without
+2022-03-11 08:04:27: Info: Validating InnoDB page size of instance 'microk8s-master1:3306'.
+2022-03-11 08:04:27: Info: Checking if performance_schema is enabled on instance 'microk8s-master1:3306'.
+2022-03-11 08:04:27: Info: Validating configuration of microk8s-master1:3306 (mycnf = )
+2022-03-11 08:04:28: Info: SSL mode used to configure the cluster: 'REQUIRED'
+2022-03-11 08:04:28: Info: Group Replication will communicate with other members using 'microk8s-master1:33061'. Use the localAddress option to override.
+2022-03-11 08:04:28: Info: Using Group Replication single primary mode: TRUE
+2022-03-11 08:04:28: Info: Using Group Replication SSL mode: REQUIRED
+2022-03-11 08:04:28: Info: Using Group Replication group name: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-11 08:04:28: Info: Using Group Replication local address: microk8s-master1:33061
+2022-03-11 08:04:30: Info: Deploying metadata schema in microk8s-master1:3306...
+2022-03-11 08:04:33: Info: About to connect to MySQL at: mysql://rvtadmin@db1.local:3306?connect-timeout=5000
+2022-03-11 08:04:33: Info: Creating recovery account 'mysql_innodb_cluster_1248688266'@'%' for instance 'microk8s-master1:3306'
+2022-03-11 08:05:44: Info: About to connect to MySQL at: mysql://rvtadmin@db2.local:3306?connect-timeout=5000
+2022-03-11 08:05:44: Info: The target instance 'microk8s:3306' has not been pre-provisioned (GTID set is empty). The Shell is unable to decide whether incremental state recovery can correctly provision it.
+2022-03-11 08:06:24: Info: SSL mode used to configure the instance: 'REQUIRED'
+2022-03-11 08:06:24: Info: About to connect to MySQL at: mysql://rvtadmin@db2.local:3306?connect-timeout=5000
+2022-03-11 08:06:24: Info: Validating account rvtadmin@%...
+2022-03-11 08:06:24: Info: rvtadmin user has 1 accounts with wildcard or netmask and 0 without
+2022-03-11 08:06:24: Info: Validating InnoDB page size of instance 'microk8s:3306'.
+2022-03-11 08:06:24: Info: Checking if performance_schema is enabled on instance 'microk8s:3306'.
+2022-03-11 08:06:24: Info: Validating configuration of microk8s:3306 (mycnf = )
+2022-03-11 08:06:24: Info: Validating if 'lower_case_table_names' variable has the same value on target instance 'db2.local:3306' as it does on the cluster.
+2022-03-11 08:06:24: Info: Validating if 'default_table_encryption' variable has the same value on target instance 'db2.local:3306' as it does on the cluster.
+2022-03-11 08:06:24: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-11 08:06:24: Info: Group Replication will communicate with other members using 'microk8s:33061'. Use the localAddress option to override.
+2022-03-11 08:06:24: Info: Using Group Replication local address: microk8s:33061
+2022-03-11 08:06:24: Info: Using Group Replication group seeds: microk8s-master1:33061
+2022-03-11 08:06:24: Info: Using Group Replication failover consistency: EVENTUAL
+2022-03-11 08:06:24: Info: Using Group Replication expel timeout: 5
+2022-03-11 08:06:24: Info: Validating if 'group_replication_gtid_assignment_block_size' variable has the same value on target instance 'db2.local:3306' as it does on the cluster.
+2022-03-11 08:06:24: Info: Installing the clone plugin on instance 'microk8s:3306'.
+2022-03-11 08:06:24: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-11 08:06:24: Info: Installing the clone plugin on instance 'microk8s-master1:3306'.
+2022-03-11 08:06:24: Info: Creating recovery account 'mysql_innodb_cluster_1848268499'@'%' for instance 'microk8s:3306'
+2022-03-11 08:06:25: Info: Joining 'microk8s:3306' to cluster using account rvtadmin to peer 'microk8s-master1:3306'.
+2022-03-11 08:06:27: Info: Waiting for GR recovery to start for db2.local:3306...
+2022-03-11 08:06:27: Info: About to connect to MySQL at: mysql://rvtadmin@db2.local:3306?connect-timeout=5000
+2022-03-11 08:06:27: Info: microk8s:3306 has started
+2022-03-11 08:06:28: Info: About to connect to MySQL at: mysql://rvtadmin@db2.local:3306?connect-timeout=5000
+2022-03-11 08:06:28: Info: 'microk8s:3306' is being recovered from 'microk8s-master1:3306'
+2022-03-11 08:06:31: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-11 08:06:42: Info: About to connect to MySQL at: mysql://rvtadmin@db3.local:3306?connect-timeout=5000
+2022-03-11 08:06:42: Info: The target instance 'microk8s-master3:3306' has not been pre-provisioned (GTID set is empty). The Shell is unable to decide whether incremental state recovery can correctly provision it.
+2022-03-11 08:06:44: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-11 08:06:44: Info: SSL mode used to configure the instance: 'REQUIRED'
+2022-03-11 08:06:44: Info: About to connect to MySQL at: mysql://rvtadmin@db3.local:3306?connect-timeout=5000
+2022-03-11 08:06:44: Info: Validating account rvtadmin@%...
+2022-03-11 08:06:44: Info: rvtadmin user has 1 accounts with wildcard or netmask and 0 without
+2022-03-11 08:06:44: Info: Validating InnoDB page size of instance 'microk8s-master3:3306'.
+2022-03-11 08:06:44: Info: Checking if performance_schema is enabled on instance 'microk8s-master3:3306'.
+2022-03-11 08:06:44: Info: Validating configuration of microk8s-master3:3306 (mycnf = )
+2022-03-11 08:06:44: Info: Validating if 'lower_case_table_names' variable has the same value on target instance 'db3.local:3306' as it does on the cluster.
+2022-03-11 08:06:44: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-11 08:06:44: Info: Validating if 'default_table_encryption' variable has the same value on target instance 'db3.local:3306' as it does on the cluster.
+2022-03-11 08:06:44: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-11 08:06:44: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-11 08:06:44: Info: Group Replication will communicate with other members using 'microk8s-master3:33061'. Use the localAddress option to override.
+2022-03-11 08:06:44: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-11 08:06:44: Info: Using Group Replication local address: microk8s-master3:33061
+2022-03-11 08:06:44: Info: Using Group Replication group seeds: microk8s-master1:33061,microk8s:33061
+2022-03-11 08:06:44: Info: Using Group Replication failover consistency: EVENTUAL
+2022-03-11 08:06:44: Info: Using Group Replication expel timeout: 5
+2022-03-11 08:06:44: Info: Validating if 'group_replication_gtid_assignment_block_size' variable has the same value on target instance 'db3.local:3306' as it does on the cluster.
+2022-03-11 08:06:44: Info: Installing the clone plugin on instance 'microk8s-master3:3306'.
+2022-03-11 08:06:44: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-11 08:06:44: Info: Installing the clone plugin on instance 'microk8s-master1:3306'.
+2022-03-11 08:06:44: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-11 08:06:44: Info: Installing the clone plugin on instance 'microk8s:3306'.
+2022-03-11 08:06:44: Info: Creating recovery account 'mysql_innodb_cluster_4230838218'@'%' for instance 'microk8s-master3:3306'
+2022-03-11 08:06:44: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-11 08:06:45: Info: Joining 'microk8s-master3:3306' to cluster using account rvtadmin to peer 'microk8s-master1:3306'.
+2022-03-11 08:06:47: Info: Waiting for GR recovery to start for db3.local:3306...
+2022-03-11 08:06:47: Info: About to connect to MySQL at: mysql://rvtadmin@db3.local:3306?connect-timeout=5000
+2022-03-11 08:06:47: Info: microk8s-master3:3306 has started
+2022-03-11 08:06:48: Info: About to connect to MySQL at: mysql://rvtadmin@db3.local:3306?connect-timeout=5000
+2022-03-11 08:06:48: Info: 'microk8s-master3:3306' is being recovered from 'microk8s-master1:3306'
+2022-03-11 08:06:51: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-11 08:06:51: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-11 08:07:20: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-11 08:07:20: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-11 08:07:20: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-11 08:09:26: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-11 08:09:26: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-11 08:09:26: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-11 08:10:00: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-11 08:10:00: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-11 08:10:00: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 07:06:07: Info: Using credential store helper: /usr/bin/mysql-secret-store-login-path
+2022-03-14 07:06:07: Info: Setting Python home to '/usr/lib/mysqlsh'
+2022-03-14 07:06:08: Info: Loading startup files...
+2022-03-14 07:06:08: Info: Loading plugins...
+2022-03-14 07:10:02: Info: Using credential store helper: /usr/bin/mysql-secret-store-login-path
+2022-03-14 07:10:02: Info: Setting Python home to '/usr/lib/mysqlsh'
+2022-03-14 07:10:02: Info: Loading startup files...
+2022-03-14 07:10:02: Info: Loading plugins...
+2022-03-14 07:10:47: Info: About to connect to MySQL at: rvtadmin@db1.local
+2022-03-14 07:10:59: Info: About to connect to MySQL at: rvtadmin@db1.local
+2022-03-14 07:19:19: Info: About to connect to MySQL at: mysql://rvtadmin@db1.local:3306?connect-timeout=5000
+2022-03-14 07:19:19: Info: Group Replication 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-14 07:19:19: Info: Metadata 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-14 07:19:47: Info: About to connect to MySQL at: mysql://rvtadmin@db1.local:3306?connect-timeout=5000
+2022-03-14 07:19:47: Info: Group Replication 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-14 07:19:47: Info: Metadata 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-14 07:19:51: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 07:19:51: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 07:19:51: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 08:51:26: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 08:51:26: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 08:51:26: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 09:05:34: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 09:05:34: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 09:05:34: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 09:07:43: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 09:07:43: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 09:07:43: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 09:07:47: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 09:07:47: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 09:07:47: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 09:08:27: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 09:08:27: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 09:08:27: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 09:08:33: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 09:08:34: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 09:08:34: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 09:10:08: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 09:10:08: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 09:10:08: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 09:10:11: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 09:10:11: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 09:10:11: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 09:10:13: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 09:10:13: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 09:10:13: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 09:10:14: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 09:10:14: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 09:10:14: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 09:10:15: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 09:10:15: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 09:10:15: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 09:10:18: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 09:10:19: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 09:10:19: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 09:11:15: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 09:11:15: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 09:11:15: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 10:39:48: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 10:39:48: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 10:39:48: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 10:40:06: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 10:40:06: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 10:40:06: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 10:40:16: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 10:40:16: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 10:40:16: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 10:40:17: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 10:40:17: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 10:40:17: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 10:40:18: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 10:40:18: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 10:40:18: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 10:40:19: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 10:40:19: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 10:40:19: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 10:40:20: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 10:40:20: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 10:40:20: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 10:40:20: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 10:40:20: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 10:40:20: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 10:40:21: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 10:40:21: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 10:40:21: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 10:40:22: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 10:40:22: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 10:40:22: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 10:40:22: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 10:40:22: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 10:40:22: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 10:40:23: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 10:40:23: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 10:40:23: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 10:40:24: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 10:40:24: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 10:40:24: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 10:40:25: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 10:40:25: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 10:40:25: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 10:41:08: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 10:41:09: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 10:41:09: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 10:41:09: Warning: While querying metadata: MySQL Error 1053 (08S01): Server shutdown in progress
+2022-03-14 10:41:25: Info: About to connect to MySQL at: rvtadmin@db2.local
+2022-03-14 10:41:33: Info: About to connect to MySQL at: rvtadmin@db2.local
+2022-03-14 10:41:51: Info: About to connect to MySQL at: mysql://rvtadmin@db2.local:3306?connect-timeout=5000
+2022-03-14 10:41:51: Info: Group Replication 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-14 10:41:51: Info: Metadata 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-14 10:41:53: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 10:41:53: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 10:41:53: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 10:42:12: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 10:42:12: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 10:42:12: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 10:42:54: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 10:42:54: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 10:42:54: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 10:43:05: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 10:43:05: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 10:43:05: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 10:43:06: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 10:43:06: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 10:43:06: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 10:43:07: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 10:43:07: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 10:43:07: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 11:28:48: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 11:28:48: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 11:28:48: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 11:32:10: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-14 11:32:10: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-14 11:32:10: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-14 12:54:36: Info: Using credential store helper: /usr/bin/mysql-secret-store-login-path
+2022-03-14 12:54:36: Info: Setting Python home to '/usr/lib/mysqlsh'
+2022-03-14 12:54:36: Info: Loading startup files...
+2022-03-14 12:54:36: Info: Loading plugins...
+2022-03-15 06:46:28: Info: Using credential store helper: /usr/bin/mysql-secret-store-login-path
+2022-03-15 06:46:28: Info: Setting Python home to '/usr/lib/mysqlsh'
+2022-03-15 06:46:29: Info: Loading startup files...
+2022-03-15 06:46:29: Info: Loading plugins...
+2022-03-15 06:46:43: Info: About to connect to MySQL at: rvtadmin@db2.local
+2022-03-15 06:46:48: Info: About to connect to MySQL at: mysql://rvtadmin@db2.local:3306?connect-timeout=5000
+2022-03-15 06:46:48: Info: Group Replication 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-15 06:46:48: Info: Metadata 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-15 06:46:52: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 06:46:52: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 06:46:52: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 06:55:03: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 06:55:03: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 06:55:03: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 06:55:16: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 06:55:16: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 06:55:16: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 06:57:31: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 06:57:31: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 06:57:31: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 07:50:14: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 07:50:14: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 07:50:14: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 07:50:31: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 07:50:31: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 07:50:31: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 07:50:45: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 07:50:45: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 07:50:45: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 07:50:48: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 07:50:48: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 07:50:48: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 08:00:46: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 08:00:46: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 08:00:46: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 10:31:13: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 10:31:13: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 10:31:13: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 11:01:51: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 11:01:51: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 11:01:51: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 11:01:53: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 11:01:53: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 11:01:53: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 11:01:54: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 11:01:54: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 11:01:54: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 11:01:56: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 11:01:56: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 11:01:56: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 11:02:00: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 11:02:00: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 11:02:00: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 11:04:28: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 11:04:28: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 11:04:28: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 11:06:01: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 11:06:01: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 11:06:01: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 11:06:03: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 11:06:03: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 11:06:03: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 11:06:04: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 11:06:04: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 11:06:04: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 11:06:06: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 11:06:06: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 11:06:06: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 11:08:44: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 11:08:44: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 11:08:44: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 11:08:46: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 11:08:46: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 11:08:46: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 11:08:47: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 11:08:47: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 11:08:47: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 11:11:12: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 11:11:12: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 11:11:12: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 11:22:15: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 11:22:15: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 11:22:15: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 11:24:31: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 11:24:33: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 11:24:33: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 11:24:35: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 11:24:35: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 11:24:35: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 11:27:12: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 11:27:12: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 11:27:12: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 11:32:48: Info: About to connect to MySQL at: rvtadmin@db2.local
+2022-03-15 11:32:50: Info: About to connect to MySQL at: mysql://rvtadmin@db2.local:3306?connect-timeout=5000
+2022-03-15 11:32:50: Info: Group Replication 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-15 11:32:50: Info: Metadata 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-15 11:32:51: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 11:32:51: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 11:32:51: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 11:33:00: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 11:33:00: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 11:33:00: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 11:34:05: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 11:34:05: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 11:34:05: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 11:34:51: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 11:34:51: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 11:34:51: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 11:34:52: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 11:34:52: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 11:34:52: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 11:34:55: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 11:34:55: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 11:34:55: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 11:34:57: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 11:34:57: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 11:34:57: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 11:34:59: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 11:34:59: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 11:34:59: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 11:38:09: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 11:38:09: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 11:38:09: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 11:42:28: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 11:42:28: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 11:42:28: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 11:42:35: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 11:42:35: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 11:42:35: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 11:43:11: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 11:43:11: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 11:43:11: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 11:44:33: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 11:44:33: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 11:44:33: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 12:00:05: Info: Using credential store helper: /usr/bin/mysql-secret-store-login-path
+2022-03-15 12:00:05: Info: Setting Python home to '/usr/lib/mysqlsh'
+2022-03-15 12:00:06: Info: Loading startup files...
+2022-03-15 12:00:06: Info: Loading plugins...
+2022-03-15 12:00:28: Info: About to connect to MySQL at: rvtadmin@db1.local
+2022-03-15 12:00:32: Info: About to connect to MySQL at: rvtadmin@db2.local
+2022-03-15 12:00:46: Info: About to connect to MySQL at: mysql://rvtadmin@db2.local:3306?connect-timeout=5000
+2022-03-15 12:00:46: Info: Group Replication 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-15 12:00:46: Info: Metadata 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-15 12:00:49: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 12:00:49: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 12:00:49: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 12:05:50: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 12:05:50: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 12:05:50: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 12:07:29: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 12:07:29: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 12:07:29: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 12:35:15: Info: Using credential store helper: /usr/bin/mysql-secret-store-login-path
+2022-03-15 12:35:15: Info: Setting Python home to '/usr/lib/mysqlsh'
+2022-03-15 12:35:15: Info: Loading startup files...
+2022-03-15 12:35:15: Info: Loading plugins...
+2022-03-15 12:35:35: Info: About to connect to MySQL at: rvtadmin@db2.local:3306
+2022-03-15 12:35:40: Info: About to connect to MySQL at: rvtadmin@db2.local:3306
+2022-03-15 12:35:50: Info: About to connect to MySQL at: mysql://rvtadmin@db2.local:3306?connect-timeout=5000
+2022-03-15 12:35:50: Info: Group Replication 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-15 12:35:50: Info: Metadata 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-15 12:35:54: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 12:35:54: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 12:35:54: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 12:42:03: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 12:42:03: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 12:42:03: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 12:42:44: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 12:42:44: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 12:42:44: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 12:43:34: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 12:43:34: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 12:43:34: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 12:44:06: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 12:44:06: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 12:44:06: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 12:44:37: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 12:44:37: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 12:44:37: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 12:44:38: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 12:44:38: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 12:44:38: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 12:46:13: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 12:46:13: Error: microk8s-master3:3306 is reachable but has state ERROR
+2022-03-15 12:46:19: Info: Validating account rvtadmin@%...
+2022-03-15 12:46:19: Info: Dropping recovery account 'mysql_innodb_cluster_4230838218'@'%' for instance 'microk8s-master3:3306'
+2022-03-15 12:46:20: Info: Transaction sync was skipped
+2022-03-15 12:46:21: Info: Instance 'microk8s-master3:3306' has left the group.
+2022-03-15 12:46:21: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 12:46:21: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 12:46:26: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 12:46:26: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 12:46:26: Info: SSL mode used to configure the instance: 'REQUIRED'
+2022-03-15 12:46:26: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 12:46:26: Info: Validating account rvtadmin@%...
+2022-03-15 12:46:26: Info: rvtadmin user has 1 accounts with wildcard or netmask and 0 without
+2022-03-15 12:46:26: Info: Validating InnoDB page size of instance 'microk8s-master3:3306'.
+2022-03-15 12:46:26: Info: Checking if performance_schema is enabled on instance 'microk8s-master3:3306'.
+2022-03-15 12:46:26: Info: Validating configuration of microk8s-master3:3306 (mycnf = )
+2022-03-15 12:46:26: Info: Validating if 'lower_case_table_names' variable has the same value on target instance 'microk8s-master3:3306' as it does on the cluster.
+2022-03-15 12:46:26: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 12:46:26: Info: Validating if 'default_table_encryption' variable has the same value on target instance 'microk8s-master3:3306' as it does on the cluster.
+2022-03-15 12:46:26: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 12:46:26: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 12:46:26: Info: Group Replication will communicate with other members using 'microk8s-master3:33061'. Use the localAddress option to override.
+2022-03-15 12:46:26: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 12:46:26: Info: Using Group Replication local address: microk8s-master3:33061
+2022-03-15 12:46:26: Info: Using Group Replication group seeds: microk8s-master1:33061,microk8s:33061
+2022-03-15 12:46:26: Info: Using Group Replication failover consistency: EVENTUAL
+2022-03-15 12:46:26: Info: Using Group Replication expel timeout: 5
+2022-03-15 12:46:26: Info: Validating if 'group_replication_gtid_assignment_block_size' variable has the same value on target instance 'microk8s-master3:3306' as it does on the cluster.
+2022-03-15 12:46:26: Info: Installing the clone plugin on instance 'microk8s-master3:3306'.
+2022-03-15 12:46:26: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 12:46:26: Info: Installing the clone plugin on instance 'microk8s-master1:3306'.
+2022-03-15 12:46:26: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 12:46:26: Info: Installing the clone plugin on instance 'microk8s:3306'.
+2022-03-15 12:46:26: Info: Creating recovery account 'mysql_innodb_cluster_4230838218'@'%' for instance 'microk8s-master3:3306'
+2022-03-15 12:46:26: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 12:46:26: Info: Joining 'microk8s-master3:3306' to cluster using account rvtadmin to peer 'microk8s:3306'.
+2022-03-15 12:46:35: Info: Waiting for GR recovery to start for microk8s-master3:3306...
+2022-03-15 12:46:35: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 12:46:35: Info: microk8s-master3:3306 has started
+2022-03-15 12:46:36: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-15 12:46:36: Warning: Error in applier for group_replication_recovery: Worker 1 failed executing transaction 'dfa366fb-a111-11ec-8140-0050568c9ed5:1000926' at master log binlog.000023, end_log_pos 239715; Could not execute Write_rows event on table ropay-roles-apigw.users; Duplicate entry '99' for key 'users.PRIMARY', Error_code: 1062; handler error HA_ERR_FOUND_DUPP_KEY; the event's master log FIRST, end_log_pos 239715 (1062) at 2022-03-15 12:46:35.913246
+2022-03-15 12:46:36: Info: 'microk8s-master3:3306' is being recovered from 'microk8s-master1:3306'
+2022-03-15 12:47:36: Warning: Error in applier for group_replication_recovery: Worker 1 failed executing transaction 'dfa366fb-a111-11ec-8140-0050568c9ed5:1000926' at master log binlog.000023, end_log_pos 239715; Could not execute Write_rows event on table ropay-roles-apigw.users; Duplicate entry '99' for key 'users.PRIMARY', Error_code: 1062; handler error HA_ERR_FOUND_DUPP_KEY; the event's master log FIRST, end_log_pos 239715 (1062) at 2022-03-15 12:47:36.264451
+2022-03-15 12:47:37: Warning: Error in applier for group_replication_recovery: Worker 1 failed executing transaction 'dfa366fb-a111-11ec-8140-0050568c9ed5:1000926' at master log binlog.000007, end_log_pos 423833; Could not execute Write_rows event on table ropay-roles-apigw.users; Duplicate entry '99' for key 'users.PRIMARY', Error_code: 1062; handler error HA_ERR_FOUND_DUPP_KEY; the event's master log FIRST, end_log_pos 423833 (1062) at 2022-03-15 12:47:36.668073
+2022-03-15 12:48:37: Warning: Error in applier for group_replication_recovery: Worker 1 failed executing transaction 'dfa366fb-a111-11ec-8140-0050568c9ed5:1000926' at master log binlog.000023, end_log_pos 239715; Could not execute Write_rows event on table ropay-roles-apigw.users; Duplicate entry '99' for key 'users.PRIMARY', Error_code: 1062; handler error HA_ERR_FOUND_DUPP_KEY; the event's master log FIRST, end_log_pos 239715 (1062) at 2022-03-15 12:48:37.009243
+2022-03-15 12:49:38: Warning: Error in applier for group_replication_recovery: Worker 1 failed executing transaction 'dfa366fb-a111-11ec-8140-0050568c9ed5:1000926' at master log binlog.000023, end_log_pos 239715; Could not execute Write_rows event on table ropay-roles-apigw.users; Duplicate entry '99' for key 'users.PRIMARY', Error_code: 1062; handler error HA_ERR_FOUND_DUPP_KEY; the event's master log FIRST, end_log_pos 239715 (1062) at 2022-03-15 12:49:37.405048
+2022-03-15 12:50:38: Warning: Error in applier for group_replication_recovery: Worker 1 failed executing transaction 'dfa366fb-a111-11ec-8140-0050568c9ed5:1000926' at master log binlog.000023, end_log_pos 239715; Could not execute Write_rows event on table ropay-roles-apigw.users; Duplicate entry '99' for key 'users.PRIMARY', Error_code: 1062; handler error HA_ERR_FOUND_DUPP_KEY; the event's master log FIRST, end_log_pos 239715 (1062) at 2022-03-15 12:50:37.891803
+2022-03-15 12:51:39: Warning: Error in applier for group_replication_recovery: Worker 1 failed executing transaction 'dfa366fb-a111-11ec-8140-0050568c9ed5:1000926' at master log binlog.000023, end_log_pos 239715; Could not execute Write_rows event on table ropay-roles-apigw.users; Duplicate entry '99' for key 'users.PRIMARY', Error_code: 1062; handler error HA_ERR_FOUND_DUPP_KEY; the event's master log FIRST, end_log_pos 239715 (1062) at 2022-03-15 12:51:38.251620
+2022-03-15 12:52:39: Warning: Error in applier for group_replication_recovery: Worker 1 failed executing transaction 'dfa366fb-a111-11ec-8140-0050568c9ed5:1000926' at master log binlog.000023, end_log_pos 239715; Could not execute Write_rows event on table ropay-roles-apigw.users; Duplicate entry '99' for key 'users.PRIMARY', Error_code: 1062; handler error HA_ERR_FOUND_DUPP_KEY; the event's master log FIRST, end_log_pos 239715 (1062) at 2022-03-15 12:52:38.587993
+2022-03-15 12:53:39: Warning: Error in applier for group_replication_recovery: Worker 1 failed executing transaction 'dfa366fb-a111-11ec-8140-0050568c9ed5:1000926' at master log binlog.000023, end_log_pos 239715; Could not execute Write_rows event on table ropay-roles-apigw.users; Duplicate entry '99' for key 'users.PRIMARY', Error_code: 1062; handler error HA_ERR_FOUND_DUPP_KEY; the event's master log FIRST, end_log_pos 239715 (1062) at 2022-03-15 12:53:38.918797
+2022-03-15 12:53:39: Error: Recovery error in added instance: MySQL Error 51155: Distributed recovery has failed
+2022-03-15 12:53:44: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 12:53:44: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 12:53:44: Warning: Can't get protocol version from microk8s:3306: MySQL Error 1123 (HY000): Can't initialize function 'group_replication_get_communication_protocol'; Member must be ONLINE and in the majority partition.
+2022-03-15 12:55:55: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 12:55:55: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 12:55:55: Warning: Can't get protocol version from microk8s:3306: MySQL Error 1123 (HY000): Can't initialize function 'group_replication_get_communication_protocol'; Member must be ONLINE and in the majority partition.
+2022-03-15 12:56:01: Info: About to connect to MySQL at: mysql://rvtadmin@db2.local:3306?connect-timeout=5000
+2022-03-15 12:56:01: Warning: Cluster error connecting to target: MYSQLSH 51002: Group replication does not seem to be active in instance 'microk8s:3306'
+2022-03-15 12:56:07: Info: About to connect to MySQL at: rvtadmin@db1.local
+2022-03-15 12:56:09: Info: About to connect to MySQL at: mysql://rvtadmin@db1.local:3306?connect-timeout=5000
+2022-03-15 12:56:09: Info: Group Replication 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-15 12:56:09: Info: Metadata 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-15 12:56:11: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 12:56:11: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 12:57:19: Info: About to connect to MySQL at: rvtadmin@db1.local
+2022-03-15 12:57:21: Info: About to connect to MySQL at: mysql://rvtadmin@db1.local:3306?connect-timeout=5000
+2022-03-15 12:57:21: Info: Group Replication 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-15 12:57:21: Info: Metadata 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-15 12:57:27: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 12:57:27: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 13:01:58: Info: About to connect to MySQL at: rvtadmin@db1.local
+2022-03-15 13:02:03: Info: About to connect to MySQL at: mysql://rvtadmin@db1.local:3306?connect-timeout=5000
+2022-03-15 13:02:03: Info: Group Replication 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-15 13:02:03: Info: Metadata 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-15 13:02:04: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 13:02:04: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 13:07:48: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 13:07:48: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 13:07:48: Warning: Can't get protocol version from microk8s:3306: MySQL Error 1123 (HY000): Can't initialize function 'group_replication_get_communication_protocol'; Member must be ONLINE and in the majority partition.
+2022-03-15 13:08:08: Info: Using credential store helper: /usr/bin/mysql-secret-store-login-path
+2022-03-15 13:08:08: Info: Setting Python home to '/usr/lib/mysqlsh'
+2022-03-15 13:08:08: Info: Loading startup files...
+2022-03-15 13:08:08: Info: Loading plugins...
+2022-03-15 13:08:20: Info: About to connect to MySQL at: rvtadmin@db1.local:3306
+2022-03-15 13:08:25: Info: About to connect to MySQL at: mysql://rvtadmin@db1.local:3306?connect-timeout=5000
+2022-03-15 13:08:25: Info: Group Replication 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-15 13:08:25: Info: Metadata 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-15 13:08:29: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 13:08:29: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 13:09:26: Info: About to connect to MySQL at: mysql://rvtadmin@db1.local:3306?connect-timeout=5000
+2022-03-15 13:09:26: Info: Group Replication 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-15 13:09:26: Info: Metadata 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-15 13:09:28: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 13:09:28: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 13:11:16: Info: Using credential store helper: /usr/bin/mysql-secret-store-login-path
+2022-03-15 13:11:16: Info: Setting Python home to '/usr/lib/mysqlsh'
+2022-03-15 13:11:16: Info: Loading startup files...
+2022-03-15 13:11:16: Info: Loading plugins...
+2022-03-15 13:11:37: Info: About to connect to MySQL at: rvtadmin@db1.local:3306
+2022-03-15 13:11:40: Info: About to connect to MySQL at: mysql://rvtadmin@db1.local:3306?connect-timeout=5000
+2022-03-15 13:12:09: Info: Using credential store helper: /usr/bin/mysql-secret-store-login-path
+2022-03-15 13:12:09: Info: Setting Python home to '/usr/lib/mysqlsh'
+2022-03-15 13:12:09: Info: Loading startup files...
+2022-03-15 13:12:09: Info: Loading plugins...
+2022-03-15 13:12:17: Info: About to connect to MySQL at: rvtadmin@db1.local:3306
+2022-03-15 13:12:23: Info: About to connect to MySQL at: mysql://rvtadmin@db1.local:3306?connect-timeout=5000
+2022-03-15 13:12:36: Info: About to connect to MySQL at: mysql://rvtadmin@db1.local:3306?connect-timeout=5000
+2022-03-15 13:13:36: Info: About to connect to MySQL at: mysql://rvtadmin@db1.local:3306?connect-timeout=5000
+2022-03-15 13:14:07: Info: About to connect to MySQL at: mysql://rvtadmin@db1.local:3306?connect-timeout=5000
+2022-03-15 13:14:32: Info: About to connect to MySQL at: mysql://rvtadmin@db1.local:3306?connect-timeout=5000
+2022-03-15 13:14:32: Info: Group Replication 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-15 13:14:32: Info: Metadata 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-15 13:14:32: Info: Opening a new session to the instance: microk8s:3306
+2022-03-15 13:14:32: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 13:14:32: Info: Checking state of instance 'microk8s:3306'
+2022-03-15 13:14:36: Info: Opening a new session to the instance for gtid validations microk8s:3306
+2022-03-15 13:14:36: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 13:14:36: Info: Using Group Replication local address: microk8s-master1:33061
+2022-03-15 13:14:36: Info: Using Group Replication exit state action: READ_ONLY
+2022-03-15 13:14:36: Info: Using Group Replication member weight: 50
+2022-03-15 13:14:36: Info: Using Group Replication failover consistency: EVENTUAL
+2022-03-15 13:14:36: Info: Using Group Replication expel timeout: 5
+2022-03-15 13:14:36: Info: Using Group Replication auto-rejoin tries: 3
+2022-03-15 13:14:36: Info: Using Group Replication group name: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-15 13:14:36: Info: Starting cluster with 'microk8s-master1:3306' using account rvtadmin
+2022-03-15 13:14:38: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 13:14:38: Info: Group Replication 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-15 13:14:38: Info: Metadata 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-15 13:14:38: Info: SSL mode used to configure the instance: 'REQUIRED'
+2022-03-15 13:14:38: Info: Validating if 'lower_case_table_names' variable has the same value on target instance 'microk8s:3306' as it does on the cluster.
+2022-03-15 13:14:38: Info: Validating if 'default_table_encryption' variable has the same value on target instance 'microk8s:3306' as it does on the cluster.
+2022-03-15 13:14:38: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 13:14:39: Info: Validating if 'group_replication_gtid_assignment_block_size' variable has the same value on target instance 'microk8s:3306' as it does on the cluster.
+2022-03-15 13:14:44: Error: Unable to start Group Replication for instance 'microk8s:3306'.
+2022-03-15 13:14:44: Warning: microk8s:3306: RuntimeError: Group Replication failed to start: MySQL Error 3092 (HY000): microk8s:3306: The server is not configured properly to be an active member of the group. Please see more details on error log.
+2022-03-15 13:14:44: Info: Unable to rejoin instance 'microk8s:3306' to the cluster but the dba.<<<rebootClusterFromCompleteOutage>>>() operation will continue.
+2022-03-15 13:14:51: Info: About to connect to MySQL at: mysql://rvtadmin@db1.local:3306?connect-timeout=5000
+2022-03-15 13:14:51: Info: Group Replication 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-15 13:14:51: Info: Metadata 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-15 13:15:06: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 13:15:06: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 13:15:57: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-15 13:15:57: Error: microk8s:3306 is reachable but has state OFFLINE
+2022-03-15 13:15:59: Info: Validating account rvtadmin@%...
+2022-03-15 13:15:59: Info: Dropping recovery account 'mysql_innodb_cluster_1848268499'@'%' for instance 'microk8s:3306'
+2022-03-15 13:15:59: Info: Transaction sync was skipped
+2022-03-15 13:15:59: Info: The instance 'microk8s:3306' is OFFLINE, Group Replication stop skipped.
+2022-03-15 13:15:59: Info: Instance 'microk8s:3306' has left the group.
+2022-03-15 13:15:59: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 13:16:14: Info: About to connect to MySQL at: mysql://rvtadmin@db2.local:3306?connect-timeout=5000
+2022-03-15 13:16:14: Info: Validating account rvtadmin@%...
+2022-03-15 13:16:14: Info: rvtadmin user has 1 accounts with wildcard or netmask and 0 without
+2022-03-15 13:16:14: Info: Validating InnoDB page size of instance 'microk8s:3306'.
+2022-03-15 13:16:14: Info: Checking if performance_schema is enabled on instance 'microk8s:3306'.
+2022-03-15 13:16:14: Info: Validating configuration of microk8s:3306 (mycnf = )
+2022-03-15 13:16:14: Error: The MySQL instance at 'microk8s:3306' currently has the super_read_only system variable set to protect it from inadvertent updates from applications.
+You must first unset it to be able to perform any changes to this instance.
+For more information see: https://dev.mysql.com/doc/refman/en/server-system-variables.html#sysvar_super_read_only.
+2022-03-15 13:20:06: Info: About to connect to MySQL at: mysql://rvtadmin@db2.local:3306?connect-timeout=5000
+2022-03-15 13:20:06: Info: Validating account rvtadmin@%...
+2022-03-15 13:20:06: Info: rvtadmin user has 1 accounts with wildcard or netmask and 0 without
+2022-03-15 13:20:06: Info: Validating InnoDB page size of instance 'microk8s:3306'.
+2022-03-15 13:20:06: Info: Checking if performance_schema is enabled on instance 'microk8s:3306'.
+2022-03-15 13:20:06: Info: Validating configuration of microk8s:3306 (mycnf = )
+2022-03-15 13:20:06: Error: The MySQL instance at 'microk8s:3306' currently has the super_read_only system variable set to protect it from inadvertent updates from applications.
+You must first unset it to be able to perform any changes to this instance.
+For more information see: https://dev.mysql.com/doc/refman/en/server-system-variables.html#sysvar_super_read_only.
+2022-03-15 13:20:14: Info: About to connect to MySQL at: mysql://rvtadmin@db3.local:3306?connect-timeout=5000
+2022-03-15 13:20:16: Info: Validating account rvtadmin@%...
+2022-03-15 13:20:16: Info: rvtadmin user has 1 accounts with wildcard or netmask and 0 without
+2022-03-15 13:20:16: Info: Validating InnoDB page size of instance 'microk8s-master3:3306'.
+2022-03-15 13:20:16: Info: Checking if performance_schema is enabled on instance 'microk8s-master3:3306'.
+2022-03-15 13:20:16: Info: Validating configuration of microk8s-master3:3306 (mycnf = )
+2022-03-15 13:20:45: Info: About to connect to MySQL at: mysql://rvtadmin@db3.local:3306?connect-timeout=5000
+2022-03-15 13:20:45: Info: The target instance 'microk8s-master3:3306' has not been pre-provisioned (GTID set is empty). The Shell is unable to decide whether incremental state recovery can correctly provision it.
+2022-03-15 13:20:53: Info: SSL mode used to configure the instance: 'REQUIRED'
+2022-03-15 13:20:53: Info: About to connect to MySQL at: mysql://rvtadmin@db3.local:3306?connect-timeout=5000
+2022-03-15 13:20:53: Info: Validating account rvtadmin@%...
+2022-03-15 13:20:53: Info: rvtadmin user has 1 accounts with wildcard or netmask and 0 without
+2022-03-15 13:20:53: Info: Validating InnoDB page size of instance 'microk8s-master3:3306'.
+2022-03-15 13:20:53: Info: Checking if performance_schema is enabled on instance 'microk8s-master3:3306'.
+2022-03-15 13:20:53: Info: Validating configuration of microk8s-master3:3306 (mycnf = )
+2022-03-15 13:20:53: Info: Validating if 'lower_case_table_names' variable has the same value on target instance 'db3.local:3306' as it does on the cluster.
+2022-03-15 13:20:53: Info: Validating if 'default_table_encryption' variable has the same value on target instance 'db3.local:3306' as it does on the cluster.
+2022-03-15 13:20:53: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 13:20:53: Info: Group Replication will communicate with other members using 'microk8s-master3:33061'. Use the localAddress option to override.
+2022-03-15 13:20:53: Info: Using Group Replication local address: microk8s-master3:33061
+2022-03-15 13:20:53: Info: Using Group Replication group seeds: microk8s-master1:33061
+2022-03-15 13:20:53: Info: Using Group Replication failover consistency: EVENTUAL
+2022-03-15 13:20:53: Info: Using Group Replication expel timeout: 5
+2022-03-15 13:20:53: Info: Validating if 'group_replication_gtid_assignment_block_size' variable has the same value on target instance 'db3.local:3306' as it does on the cluster.
+2022-03-15 13:20:53: Info: Installing the clone plugin on instance 'microk8s-master3:3306'.
+2022-03-15 13:20:53: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 13:20:53: Info: Installing the clone plugin on instance 'microk8s-master1:3306'.
+2022-03-15 13:20:53: Info: Creating recovery account 'mysql_innodb_cluster_4230838218'@'%' for instance 'microk8s-master3:3306'
+2022-03-15 13:20:53: Info: User 'mysql_innodb_cluster_4230838218'@'%' already existed at instance 'microk8s-master1:3306'. It will be deleted and created again with a new password.
+2022-03-15 13:20:53: Info: Joining 'microk8s-master3:3306' to cluster using account rvtadmin to peer 'microk8s-master1:3306'.
+2022-03-15 13:20:55: Info: Waiting for GR recovery to start for db3.local:3306...
+2022-03-15 13:20:55: Info: About to connect to MySQL at: mysql://rvtadmin@db3.local:3306?connect-timeout=5000
+2022-03-15 13:20:55: Info: microk8s-master3:3306 has started
+2022-03-15 13:20:56: Info: About to connect to MySQL at: mysql://rvtadmin@db3.local:3306?connect-timeout=5000
+2022-03-15 13:20:56: Info: 'microk8s-master3:3306' is being recovered from 'microk8s-master1:3306'
+2022-03-15 13:20:59: Warning: Error in applier for group_replication_recovery: Worker 1 failed executing transaction 'dfa366fb-a111-11ec-8140-0050568c9ed5:79' at master log binlog.000005, end_log_pos 1196; Error 'Operation CREATE USER failed for 'sbtest'@'%'' on query. Default database: ''. Query: 'CREATE USER 'sbtest'@'%' IDENTIFIED WITH 'caching_sha2_password' AS '$A$005$z[v]x(0r).L007IDhVsk3hVv.pN3Wlb02T6ItJMNyOVNDm6cXap8jgQz1'' (1396) at 2022-03-15 13:20:59.666163
+2022-03-15 13:22:00: Warning: Error in applier for group_replication_recovery: Worker 1 failed executing transaction 'dfa366fb-a111-11ec-8140-0050568c9ed5:79' at master log binlog.000005, end_log_pos 1196; Error 'Operation CREATE USER failed for 'sbtest'@'%'' on query. Default database: ''. Query: 'CREATE USER 'sbtest'@'%' IDENTIFIED WITH 'caching_sha2_password' AS '$A$005$z[v]x(0r).L007IDhVsk3hVv.pN3Wlb02T6ItJMNyOVNDm6cXap8jgQz1'' (1396) at 2022-03-15 13:22:00.052110
+2022-03-15 13:22:18: Info: User aborted JavaScript execution (^C)
+2022-03-15 13:22:18: Info: Monitoring of the recovery process was canceled. The recovery itself will continue executing in background. Use <Cluster>.status() to check progress.
+2022-03-15 13:22:18: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 13:22:32: Info: About to connect to MySQL at: mysql://rvtadmin@db3.local:3306?connect-timeout=5000
+2022-03-15 13:22:48: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-15 13:22:48: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 07:07:52: Info: Using credential store helper: /usr/bin/mysql-secret-store-login-path
+2022-03-17 07:07:52: Info: Setting Python home to '/usr/lib/mysqlsh'
+2022-03-17 07:07:53: Info: Loading startup files...
+2022-03-17 07:07:53: Info: Loading plugins...
+2022-03-17 07:07:56: Info: About to connect to MySQL at: rvtadmin@db1.local:3306
+2022-03-17 07:08:14: Info: About to connect to MySQL at: mysql://rvtadmin@db1.local:3306?connect-timeout=5000
+2022-03-17 07:08:14: Info: Group Replication 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-17 07:08:14: Info: Metadata 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-17 07:08:24: Info: About to connect to MySQL at: mysql://rvtadmin@db1.local:3306?connect-timeout=5000
+2022-03-17 07:08:24: Info: Group Replication 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-17 07:08:24: Info: Metadata 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-17 07:08:36: Info: About to connect to MySQL at: mysql://rvtadmin@db1.local:3306?connect-timeout=5000
+2022-03-17 07:08:36: Info: Group Replication 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-17 07:08:36: Info: Metadata 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-17 07:10:08: Info: About to connect to MySQL at: mysql://rvtadmin@db1.local:3306?connect-timeout=5000
+2022-03-17 07:10:08: Info: Group Replication 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-17 07:10:08: Info: Metadata 'group_name' value: dfa366fb-a111-11ec-8140-0050568c9ed5
+2022-03-17 07:10:38: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 07:10:38: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 07:10:51: Warning: You are about to dissolve the whole cluster and lose the high availability features provided by it. This operation cannot be reverted. All members will be removed from the cluster and replication will be stopped, internal recovery user accounts and the cluster metadata will be dropped. User data will be maintained intact in all instances.
+2022-03-17 07:10:52: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 07:10:52: Error: The instance 'microk8s-master3:3306' cannot be removed because it is on a '(MISSING)' state. Please bring the instance back ONLINE and try to dissolve the cluster again. If the instance is permanently not reachable, then you can choose to proceed with the operation and only remove the instance from the Cluster Metadata.
+2022-03-17 07:10:53: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 07:10:53: Info: Dropping recovery account 'mysql_innodb_cluster_1248688266'@'%' for instance 'microk8s-master1:3306'
+2022-03-17 07:10:53: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 07:10:53: Info: Dropping recovery account 'mysql_innodb_cluster_4230838218'@'%' for instance 'microk8s-master3:3306'
+2022-03-17 07:10:58: Warning: The cluster was successfully dissolved, but the following instance was skipped: 'microk8s-master3:3306'. Please make sure this instance is permanently unavailable or take any necessary manual action to ensure the cluster is fully dissolved.
+2022-03-17 07:13:23: Info: Using credential store helper: /usr/bin/mysql-secret-store-login-path
+2022-03-17 07:13:23: Info: Setting Python home to '/usr/lib/mysqlsh'
+2022-03-17 07:13:23: Info: Loading startup files...
+2022-03-17 07:13:23: Info: Loading plugins...
+2022-03-17 07:14:19: Info: About to connect to MySQL at: mysql://rvtadmin@db1.local:3306?connect-timeout=5000
+2022-03-17 07:14:19: Info: Validating account rvtadmin@%...
+2022-03-17 07:14:19: Info: rvtadmin user has 1 accounts with wildcard or netmask and 0 without
+2022-03-17 07:14:19: Info: Validating InnoDB page size of instance 'microk8s-master1:3306'.
+2022-03-17 07:14:19: Info: Checking if performance_schema is enabled on instance 'microk8s-master1:3306'.
+2022-03-17 07:14:19: Info: Validating configuration of microk8s-master1:3306 (mycnf = )
+2022-03-17 07:14:19: Error: The MySQL instance at 'microk8s-master1:3306' currently has the super_read_only system variable set to protect it from inadvertent updates from applications.
+You must first unset it to be able to perform any changes to this instance.
+For more information see: https://dev.mysql.com/doc/refman/en/server-system-variables.html#sysvar_super_read_only.
+2022-03-17 07:15:15: Info: About to connect to MySQL at: mysql://rvtadmin@db3.local:3306?connect-timeout=5000
+2022-03-17 07:15:15: Info: Validating account rvtadmin@%...
+2022-03-17 07:15:15: Info: rvtadmin user has 1 accounts with wildcard or netmask and 0 without
+2022-03-17 07:15:15: Info: Validating InnoDB page size of instance 'microk8s-master3:3306'.
+2022-03-17 07:15:15: Info: Checking if performance_schema is enabled on instance 'microk8s-master3:3306'.
+2022-03-17 07:15:15: Info: Validating configuration of microk8s-master3:3306 (mycnf = )
+2022-03-17 07:15:15: Warning: The changes on the value of replica_parallel_workers will only take place after the instance leaves and rejoins the Cluster.
+2022-03-17 07:15:52: Info: About to connect to MySQL at: mysql://rvtadmin@db2.local:3306?connect-timeout=5000
+2022-03-17 07:15:52: Info: Validating account rvtadmin@%...
+2022-03-17 07:15:52: Info: rvtadmin user has 1 accounts with wildcard or netmask and 0 without
+2022-03-17 07:15:52: Info: Validating InnoDB page size of instance 'microk8s:3306'.
+2022-03-17 07:15:52: Info: Checking if performance_schema is enabled on instance 'microk8s:3306'.
+2022-03-17 07:15:52: Info: Validating configuration of microk8s:3306 (mycnf = )
+2022-03-17 07:15:52: Error: The MySQL instance at 'microk8s:3306' currently has the super_read_only system variable set to protect it from inadvertent updates from applications.
+You must first unset it to be able to perform any changes to this instance.
+For more information see: https://dev.mysql.com/doc/refman/en/server-system-variables.html#sysvar_super_read_only.
+2022-03-17 07:15:56: Info: About to connect to MySQL at: mysql://rvtadmin@db1.local:3306?connect-timeout=5000
+2022-03-17 07:15:56: Info: Validating account rvtadmin@%...
+2022-03-17 07:15:56: Info: rvtadmin user has 1 accounts with wildcard or netmask and 0 without
+2022-03-17 07:15:56: Info: Validating InnoDB page size of instance 'microk8s-master1:3306'.
+2022-03-17 07:15:56: Info: Checking if performance_schema is enabled on instance 'microk8s-master1:3306'.
+2022-03-17 07:15:56: Info: Validating configuration of microk8s-master1:3306 (mycnf = )
+2022-03-17 07:15:56: Error: The MySQL instance at 'microk8s-master1:3306' currently has the super_read_only system variable set to protect it from inadvertent updates from applications.
+You must first unset it to be able to perform any changes to this instance.
+For more information see: https://dev.mysql.com/doc/refman/en/server-system-variables.html#sysvar_super_read_only.
+2022-03-17 07:16:47: Info: About to connect to MySQL at: mysql://rvtadmin@db2.local:3306?connect-timeout=5000
+2022-03-17 07:16:47: Info: About to connect to MySQL at: mysql://rvtadmin@db2.local:3306?connect-timeout=5000
+2022-03-17 07:16:47: Info: Validating account rvtadmin@%...
+2022-03-17 07:16:47: Info: rvtadmin user has 1 accounts with wildcard or netmask and 0 without
+2022-03-17 07:16:47: Info: Validating InnoDB page size of instance 'microk8s:3306'.
+2022-03-17 07:16:47: Info: Checking if performance_schema is enabled on instance 'microk8s:3306'.
+2022-03-17 07:16:47: Info: Validating configuration of microk8s:3306 (mycnf = )
+2022-03-17 08:18:13: Info: Using credential store helper: /usr/bin/mysql-secret-store-login-path
+2022-03-17 08:18:13: Info: Setting Python home to '/usr/lib/mysqlsh'
+2022-03-17 08:18:13: Info: Loading startup files...
+2022-03-17 08:18:13: Info: Loading plugins...
+2022-03-17 08:18:22: Info: About to connect to MySQL at: rvtadmin@db1.local:3306
+2022-03-17 08:18:33: Info: About to connect to MySQL at: mysql://rvtadmin@db1.local:3306?connect-timeout=5000
+2022-03-17 08:19:48: Info: About to connect to MySQL at: mysql://rvtadmin@db1.local:3306?connect-timeout=5000
+2022-03-17 08:19:48: Info: Validating account rvtadmin@%...
+2022-03-17 08:19:48: Info: rvtadmin user has 1 accounts with wildcard or netmask and 0 without
+2022-03-17 08:19:48: Info: Validating InnoDB page size of instance 'microk8s-master1:3306'.
+2022-03-17 08:19:48: Info: Checking if performance_schema is enabled on instance 'microk8s-master1:3306'.
+2022-03-17 08:19:48: Info: Validating configuration of microk8s-master1:3306 (mycnf = )
+2022-03-17 08:19:48: Error: The MySQL instance at 'microk8s-master1:3306' currently has the super_read_only system variable set to protect it from inadvertent updates from applications.
+You must first unset it to be able to perform any changes to this instance.
+For more information see: https://dev.mysql.com/doc/refman/en/server-system-variables.html#sysvar_super_read_only.
+2022-03-17 08:22:27: Info: Using credential store helper: /usr/bin/mysql-secret-store-login-path
+2022-03-17 08:22:27: Info: Setting Python home to '/usr/lib/mysqlsh'
+2022-03-17 08:22:27: Info: Loading startup files...
+2022-03-17 08:22:27: Info: Loading plugins...
+2022-03-17 08:24:05: Info: About to connect to MySQL at: mysql://rvtadmin@db01:3306?connect-timeout=5000
+2022-03-17 08:24:19: Info: About to connect to MySQL at: mysql://rvtadmin@db1.local:3306?connect-timeout=5000
+2022-03-17 08:24:19: Info: Validating account rvtadmin@%...
+2022-03-17 08:24:19: Info: rvtadmin user has 1 accounts with wildcard or netmask and 0 without
+2022-03-17 08:24:19: Info: Validating InnoDB page size of instance 'microk8s-master1:3306'.
+2022-03-17 08:24:19: Info: Checking if performance_schema is enabled on instance 'microk8s-master1:3306'.
+2022-03-17 08:24:19: Info: Validating configuration of microk8s-master1:3306 (mycnf = )
+2022-03-17 08:24:58: Info: About to connect to MySQL at: rvtadmin@db2.local:3306
+2022-03-17 08:26:35: Info: Using credential store helper: /usr/bin/mysql-secret-store-login-path
+2022-03-17 08:26:35: Info: Setting Python home to '/usr/lib/mysqlsh'
+2022-03-17 08:26:36: Info: Loading startup files...
+2022-03-17 08:26:36: Info: Loading plugins...
+2022-03-17 08:27:03: Info: About to connect to MySQL at: mysql://rvtadmin@db2.local:3306?connect-timeout=5000
+2022-03-17 08:27:03: Info: Validating account rvtadmin@%...
+2022-03-17 08:27:03: Info: rvtadmin user has 1 accounts with wildcard or netmask and 0 without
+2022-03-17 08:27:03: Info: Validating InnoDB page size of instance 'microk8s:3306'.
+2022-03-17 08:27:03: Info: Checking if performance_schema is enabled on instance 'microk8s:3306'.
+2022-03-17 08:27:03: Info: Validating configuration of microk8s:3306 (mycnf = )
+2022-03-17 08:27:14: Info: About to connect to MySQL at: mysql://rvtadmin@db3.local:3306?connect-timeout=5000
+2022-03-17 08:27:14: Info: Validating account rvtadmin@%...
+2022-03-17 08:27:14: Info: rvtadmin user has 1 accounts with wildcard or netmask and 0 without
+2022-03-17 08:27:14: Info: Validating InnoDB page size of instance 'microk8s-master3:3306'.
+2022-03-17 08:27:14: Info: Checking if performance_schema is enabled on instance 'microk8s-master3:3306'.
+2022-03-17 08:27:14: Info: Validating configuration of microk8s-master3:3306 (mycnf = )
+2022-03-17 08:27:14: Warning: The changes on the value of replica_parallel_workers will only take place after the instance leaves and rejoins the Cluster.
+2022-03-17 08:27:19: Info: About to connect to MySQL at: mysql://rvtadmin@db1.local:3306?connect-timeout=5000
+2022-03-17 08:27:19: Info: Validating account rvtadmin@%...
+2022-03-17 08:27:19: Info: rvtadmin user has 1 accounts with wildcard or netmask and 0 without
+2022-03-17 08:27:19: Info: Validating InnoDB page size of instance 'microk8s-master1:3306'.
+2022-03-17 08:27:19: Info: Checking if performance_schema is enabled on instance 'microk8s-master1:3306'.
+2022-03-17 08:27:19: Info: Validating configuration of microk8s-master1:3306 (mycnf = )
+2022-03-17 08:27:50: Info: About to connect to MySQL at: rvtadmin@db1.local:3306
+2022-03-17 08:28:03: Info: About to connect to MySQL at: mysql://rvtadmin@db1.local:3306?connect-timeout=5000
+2022-03-17 08:28:03: Info: About to connect to MySQL at: mysql://rvtadmin@db1.local:3306?connect-timeout=5000
+2022-03-17 08:28:03: Info: Validating account rvtadmin@%...
+2022-03-17 08:28:03: Info: rvtadmin user has 1 accounts with wildcard or netmask and 0 without
+2022-03-17 08:28:03: Info: Validating InnoDB page size of instance 'microk8s-master1:3306'.
+2022-03-17 08:28:03: Info: Checking if performance_schema is enabled on instance 'microk8s-master1:3306'.
+2022-03-17 08:28:03: Info: Validating configuration of microk8s-master1:3306 (mycnf = )
+2022-03-17 08:28:03: Info: SSL mode used to configure the cluster: 'REQUIRED'
+2022-03-17 08:28:03: Info: Group Replication will communicate with other members using 'microk8s-master1:33061'. Use the localAddress option to override.
+2022-03-17 08:28:03: Info: Using Group Replication single primary mode: TRUE
+2022-03-17 08:28:03: Info: Using Group Replication SSL mode: REQUIRED
+2022-03-17 08:28:03: Info: Using Group Replication group name: 29c19687-a5cc-11ec-9aef-0050568c9ed5
+2022-03-17 08:28:03: Info: Using Group Replication local address: microk8s-master1:33061
+2022-03-17 08:28:05: Info: Invalid Metadata schema found in target instance: re-creating new Metadata
+2022-03-17 08:28:06: Info: Deploying metadata schema in microk8s-master1:3306...
+2022-03-17 08:28:08: Info: About to connect to MySQL at: mysql://rvtadmin@db1.local:3306?connect-timeout=5000
+2022-03-17 08:28:08: Info: Creating recovery account 'mysql_innodb_cluster_1248688266'@'%' for instance 'microk8s-master1:3306'
+2022-03-17 08:28:40: Info: About to connect to MySQL at: mysql://rvtadmin@db2.local:3306?connect-timeout=5000
+2022-03-17 08:28:40: Warning: A GTID set check of the MySQL instance at 'microk8s:3306' determined that it contains transactions that do not originate from the cluster, which must be discarded before it can join the cluster.
+2022-03-17 08:28:40: Warning: Discarding these extra GTID events can either be done manually or by completely overwriting the state of microk8s:3306 with a physical snapshot from an existing cluster member. To use this method by default, set the 'recoveryMethod' option to 'clone'.
+
+Having extra GTID events is not expected, and it is recommended to investigate this further and ensure that the data can be removed prior to choosing the clone recovery method.
+2022-03-17 08:28:55: Info: SSL mode used to configure the instance: 'REQUIRED'
+2022-03-17 08:28:55: Info: About to connect to MySQL at: mysql://rvtadmin@db2.local:3306?connect-timeout=5000
+2022-03-17 08:28:55: Info: Validating account rvtadmin@%...
+2022-03-17 08:28:55: Info: rvtadmin user has 1 accounts with wildcard or netmask and 0 without
+2022-03-17 08:28:55: Info: Validating InnoDB page size of instance 'microk8s:3306'.
+2022-03-17 08:28:55: Info: Checking if performance_schema is enabled on instance 'microk8s:3306'.
+2022-03-17 08:28:55: Info: Validating configuration of microk8s:3306 (mycnf = )
+2022-03-17 08:28:55: Info: Validating if 'lower_case_table_names' variable has the same value on target instance 'db2.local:3306' as it does on the cluster.
+2022-03-17 08:28:55: Info: Validating if 'default_table_encryption' variable has the same value on target instance 'db2.local:3306' as it does on the cluster.
+2022-03-17 08:28:55: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 08:28:55: Info: Group Replication will communicate with other members using 'microk8s:33061'. Use the localAddress option to override.
+2022-03-17 08:28:55: Info: Using Group Replication local address: microk8s:33061
+2022-03-17 08:28:55: Info: Using Group Replication group seeds: microk8s-master1:33061
+2022-03-17 08:28:55: Info: Using Group Replication failover consistency: EVENTUAL
+2022-03-17 08:28:55: Info: Using Group Replication expel timeout: 5
+2022-03-17 08:28:55: Info: Validating if 'group_replication_gtid_assignment_block_size' variable has the same value on target instance 'db2.local:3306' as it does on the cluster.
+2022-03-17 08:28:55: Info: Installing the clone plugin on instance 'microk8s:3306'.
+2022-03-17 08:28:55: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 08:28:55: Info: Installing the clone plugin on instance 'microk8s-master1:3306'.
+2022-03-17 08:28:56: Info: Creating recovery account 'mysql_innodb_cluster_1848268499'@'%' for instance 'microk8s:3306'
+2022-03-17 08:28:56: Info: Joining 'microk8s:3306' to cluster using account rvtadmin to peer 'microk8s-master1:3306'.
+2022-03-17 08:28:57: Info: Waiting for GR recovery to start for db2.local:3306...
+2022-03-17 08:28:57: Info: About to connect to MySQL at: mysql://rvtadmin@db2.local:3306?connect-timeout=5000
+2022-03-17 08:28:58: Info: microk8s:3306 has started
+2022-03-17 08:28:59: Info: About to connect to MySQL at: mysql://rvtadmin@db2.local:3306?connect-timeout=5000
+2022-03-17 08:28:59: Info: A server restart is expected to happen as part of the clone process. If the
+server does not support the RESTART command or does not come back after a
+while, you may need to manually start it back.
+2022-03-17 08:28:59: Info: microk8s:3306 is being cloned from microk8s-master1:3306
+2022-03-17 08:29:05: Info: microk8s:3306 is shutting down...
+2022-03-17 08:29:05: Info: About to connect to MySQL at: mysql://rvtadmin@db2.local:3306?connect-timeout=5000
+2022-03-17 08:29:06: Info: About to connect to MySQL at: mysql://rvtadmin@db2.local:3306?connect-timeout=5000
+2022-03-17 08:29:07: Info: About to connect to MySQL at: mysql://rvtadmin@db2.local:3306?connect-timeout=5000
+2022-03-17 08:29:08: Info: About to connect to MySQL at: mysql://rvtadmin@db2.local:3306?connect-timeout=5000
+2022-03-17 08:29:09: Info: About to connect to MySQL at: mysql://rvtadmin@db2.local:3306?connect-timeout=5000
+2022-03-17 08:29:10: Info: About to connect to MySQL at: mysql://rvtadmin@db2.local:3306?connect-timeout=5000
+2022-03-17 08:29:11: Info: About to connect to MySQL at: mysql://rvtadmin@db2.local:3306?connect-timeout=5000
+2022-03-17 08:29:12: Info: About to connect to MySQL at: mysql://rvtadmin@db2.local:3306?connect-timeout=5000
+2022-03-17 08:29:12: Info: microk8s:3306 has started
+2022-03-17 08:29:12: Info: Member microk8s:3306 is in state OFFLINE, when recovery was expected (clone_state=Completed@2022-03-17 08:28:58.985).
+2022-03-17 08:29:13: Info: Member microk8s:3306 is in state OFFLINE, when recovery was expected (clone_state=Completed@2022-03-17 08:28:58.985).
+2022-03-17 08:29:14: Info: Member microk8s:3306 is in state OFFLINE, when recovery was expected (clone_state=Completed@2022-03-17 08:28:58.985).
+2022-03-17 08:29:15: Info: Member microk8s:3306 is in state OFFLINE, when recovery was expected (clone_state=Completed@2022-03-17 08:28:58.985).
+2022-03-17 08:29:17: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 08:29:44: Info: About to connect to MySQL at: mysql://rvtadmin@db2.local:3306?connect-timeout=5000
+2022-03-17 08:29:49: Info: About to connect to MySQL at: mysql://rvtadmin@db3.local:3306?connect-timeout=5000
+2022-03-17 08:30:01: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 08:30:01: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 08:31:06: Info: About to connect to MySQL at: mysql://rvtadmin@db3.local:3306?connect-timeout=5000
+2022-03-17 09:05:17: Info: About to connect to MySQL at: mysql://rvtadmin@db3.local:3306?connect-timeout=5000
+2022-03-17 09:14:40: Info: About to connect to MySQL at: mysql://rvtadmin@db3.local:3306?connect-timeout=5000
+2022-03-17 09:14:40: Warning: A GTID set check of the MySQL instance at 'microk8s-master3:3306' determined that it contains transactions that do not originate from the cluster, which must be discarded before it can join the cluster.
+2022-03-17 09:14:40: Warning: Discarding these extra GTID events can either be done manually or by completely overwriting the state of microk8s-master3:3306 with a physical snapshot from an existing cluster member. To use this method by default, set the 'recoveryMethod' option to 'clone'.
+
+Having extra GTID events is not expected, and it is recommended to investigate this further and ensure that the data can be removed prior to choosing the clone recovery method.
+2022-03-17 09:14:43: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 09:14:43: Info: SSL mode used to configure the instance: 'REQUIRED'
+2022-03-17 09:14:43: Info: About to connect to MySQL at: mysql://rvtadmin@db3.local:3306?connect-timeout=5000
+2022-03-17 09:14:43: Info: Validating account rvtadmin@%...
+2022-03-17 09:14:43: Info: rvtadmin user has 1 accounts with wildcard or netmask and 0 without
+2022-03-17 09:14:43: Info: Validating InnoDB page size of instance 'microk8s-master3:3306'.
+2022-03-17 09:14:43: Info: Checking if performance_schema is enabled on instance 'microk8s-master3:3306'.
+2022-03-17 09:14:43: Info: Validating configuration of microk8s-master3:3306 (mycnf = )
+2022-03-17 09:14:43: Info: Validating if 'lower_case_table_names' variable has the same value on target instance 'db3.local:3306' as it does on the cluster.
+2022-03-17 09:14:43: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 09:14:43: Info: Validating if 'default_table_encryption' variable has the same value on target instance 'db3.local:3306' as it does on the cluster.
+2022-03-17 09:14:43: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 09:14:43: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 09:14:43: Info: Group Replication will communicate with other members using 'microk8s-master3:33061'. Use the localAddress option to override.
+2022-03-17 09:14:43: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 09:14:43: Info: Using Group Replication local address: microk8s-master3:33061
+2022-03-17 09:14:43: Info: Using Group Replication group seeds: microk8s-master1:33061,microk8s:33061
+2022-03-17 09:14:43: Info: Using Group Replication failover consistency: EVENTUAL
+2022-03-17 09:14:43: Info: Using Group Replication expel timeout: 5
+2022-03-17 09:14:43: Info: Validating if 'group_replication_gtid_assignment_block_size' variable has the same value on target instance 'db3.local:3306' as it does on the cluster.
+2022-03-17 09:14:44: Info: Installing the clone plugin on instance 'microk8s-master3:3306'.
+2022-03-17 09:14:44: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 09:14:44: Info: Installing the clone plugin on instance 'microk8s-master1:3306'.
+2022-03-17 09:14:44: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 09:14:44: Info: Installing the clone plugin on instance 'microk8s:3306'.
+2022-03-17 09:14:44: Info: Creating recovery account 'mysql_innodb_cluster_4230838218'@'%' for instance 'microk8s-master3:3306'
+2022-03-17 09:14:44: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 09:14:44: Info: Joining 'microk8s-master3:3306' to cluster using account rvtadmin to peer 'microk8s-master1:3306'.
+2022-03-17 09:14:46: Info: Waiting for GR recovery to start for db3.local:3306...
+2022-03-17 09:14:46: Info: About to connect to MySQL at: mysql://rvtadmin@db3.local:3306?connect-timeout=5000
+2022-03-17 09:14:46: Info: microk8s-master3:3306 has started
+2022-03-17 09:14:47: Info: About to connect to MySQL at: mysql://rvtadmin@db3.local:3306?connect-timeout=5000
+2022-03-17 09:14:47: Info: A server restart is expected to happen as part of the clone process. If the
+server does not support the RESTART command or does not come back after a
+while, you may need to manually start it back.
+2022-03-17 09:14:47: Info: microk8s-master3:3306 is being cloned from microk8s:3306
+2022-03-17 09:14:55: Info: microk8s-master3:3306 is shutting down...
+2022-03-17 09:14:55: Info: About to connect to MySQL at: mysql://rvtadmin@db3.local:3306?connect-timeout=5000
+2022-03-17 09:14:56: Info: About to connect to MySQL at: mysql://rvtadmin@db3.local:3306?connect-timeout=5000
+2022-03-17 09:14:57: Info: About to connect to MySQL at: mysql://rvtadmin@db3.local:3306?connect-timeout=5000
+2022-03-17 09:14:58: Info: About to connect to MySQL at: mysql://rvtadmin@db3.local:3306?connect-timeout=5000
+2022-03-17 09:14:59: Info: About to connect to MySQL at: mysql://rvtadmin@db3.local:3306?connect-timeout=5000
+2022-03-17 09:15:00: Info: About to connect to MySQL at: mysql://rvtadmin@db3.local:3306?connect-timeout=5000
+2022-03-17 09:15:01: Info: About to connect to MySQL at: mysql://rvtadmin@db3.local:3306?connect-timeout=5000
+2022-03-17 09:15:02: Info: About to connect to MySQL at: mysql://rvtadmin@db3.local:3306?connect-timeout=5000
+2022-03-17 09:15:02: Info: microk8s-master3:3306 has started
+2022-03-17 09:15:02: Info: Member microk8s-master3:3306 is in state OFFLINE, when recovery was expected (clone_state=Completed@2022-03-17 09:14:47.904).
+2022-03-17 09:15:03: Info: Member microk8s-master3:3306 is in state OFFLINE, when recovery was expected (clone_state=Completed@2022-03-17 09:14:47.904).
+2022-03-17 09:15:04: Info: Member microk8s-master3:3306 is in state OFFLINE, when recovery was expected (clone_state=Completed@2022-03-17 09:14:47.904).
+2022-03-17 09:15:05: Info: Member microk8s-master3:3306 is in state OFFLINE, when recovery was expected (clone_state=Completed@2022-03-17 09:14:47.904).
+2022-03-17 09:15:07: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 09:15:07: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 09:15:13: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 09:15:13: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 09:15:13: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 09:34:16: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 09:34:16: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 09:34:16: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:29:15: Info: Using credential store helper: /usr/bin/mysql-secret-store-login-path
+2022-03-17 12:29:15: Info: Setting Python home to '/usr/lib/mysqlsh'
+2022-03-17 12:29:16: Info: Loading startup files...
+2022-03-17 12:29:16: Info: Loading plugins...
+2022-03-17 12:30:56: Info: About to connect to MySQL at: rvtadmin@db1.local
+2022-03-17 12:31:05: Info: About to connect to MySQL at: mysql://rvtadmin@db1.local:3306?connect-timeout=5000
+2022-03-17 12:31:05: Info: Group Replication 'group_name' value: 29c19687-a5cc-11ec-9aef-0050568c9ed5
+2022-03-17 12:31:05: Info: Metadata 'group_name' value: 29c19687-a5cc-11ec-9aef-0050568c9ed5
+2022-03-17 12:31:12: Info: About to connect to MySQL at: mysql://rvtadmin@db1.local:3306?connect-timeout=5000
+2022-03-17 12:31:12: Info: Group Replication 'group_name' value: 29c19687-a5cc-11ec-9aef-0050568c9ed5
+2022-03-17 12:31:12: Info: Metadata 'group_name' value: 29c19687-a5cc-11ec-9aef-0050568c9ed5
+2022-03-17 12:31:18: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:31:18: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:31:18: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:33:51: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:33:51: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:33:51: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:42:52: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:42:52: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:42:52: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:43:47: Info: About to connect to MySQL at: rvtadmin@db3.local
+2022-03-17 12:43:52: Info: About to connect to MySQL at: rvtadmin@db3.local
+2022-03-17 12:43:57: Info: About to connect to MySQL at: mysql://rvtadmin@db3.local:3306?connect-timeout=5000
+2022-03-17 12:43:57: Info: Group Replication 'group_name' value: 29c19687-a5cc-11ec-9aef-0050568c9ed5
+2022-03-17 12:43:57: Info: Metadata 'group_name' value: 29c19687-a5cc-11ec-9aef-0050568c9ed5
+2022-03-17 12:43:59: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:43:59: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:43:59: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:44:32: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:44:32: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:44:32: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:47:42: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:47:42: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:47:42: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:47:44: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:47:44: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:47:44: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:47:45: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:47:45: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:47:45: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:47:46: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:47:46: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:47:46: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:47:47: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:47:47: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:47:47: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:47:48: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:47:48: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:47:48: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:47:49: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:47:49: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:47:49: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:47:50: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:47:50: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:47:50: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:47:51: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:47:51: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:47:51: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:47:53: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:47:53: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:47:53: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:47:54: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:47:54: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:47:54: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:47:56: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:47:56: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:47:56: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:47:57: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:47:57: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:47:57: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:47:59: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:47:59: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:47:59: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:48:00: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:48:00: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:48:00: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:48:01: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:48:01: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:48:01: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:48:02: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:48:02: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:48:02: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:48:21: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:48:21: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:48:21: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:50:48: Info: About to connect to MySQL at: rvtadmin@db2.local
+2022-03-17 12:50:53: Info: About to connect to MySQL at: mysql://rvtadmin@db2.local:3306?connect-timeout=5000
+2022-03-17 12:50:53: Info: Looking up metadata for member 0dd75e53-a10e-11ec-9be6-0050568c9ed5
+2022-03-17 12:50:53: Info: mysql://rvtadmin@db2.local:3306 is not a primary, will try to find one and reconnect
+2022-03-17 12:50:53: Info: Opening session to primary of InnoDB cluster at rvtadmin@microk8s-master1:3306...
+2022-03-17 12:50:53: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:50:53: Info: Metadata and group sessions are now using the primary member
+2022-03-17 12:50:53: Info: Group Replication 'group_name' value: 29c19687-a5cc-11ec-9aef-0050568c9ed5
+2022-03-17 12:50:53: Info: Metadata 'group_name' value: 29c19687-a5cc-11ec-9aef-0050568c9ed5
+2022-03-17 12:50:55: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:50:55: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:50:55: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:56:24: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:56:24: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:56:24: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:56:51: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:56:51: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:56:51: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:56:58: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:56:58: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:56:58: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:57:23: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:57:23: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:57:23: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:58:01: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:58:01: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:58:01: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:58:28: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:58:28: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:58:29: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:58:32: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:58:32: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:58:32: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:59:01: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:59:01: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:59:01: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:59:02: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:59:02: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:59:02: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:59:04: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:59:04: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:59:04: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:59:06: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:59:06: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:59:06: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:59:07: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:59:07: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:59:07: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:59:09: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:59:09: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:59:09: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:59:11: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:59:11: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:59:11: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:59:13: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:59:13: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:59:13: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:59:25: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:59:25: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:59:25: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:59:27: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:59:27: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:59:27: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:59:28: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:59:28: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:59:28: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:59:28: Info: Member microk8s-master3:3306 is in state OFFLINE, when recovery was expected (clone_state=Completed@2022-03-17 09:14:47.904).
+2022-03-17 12:59:31: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:59:31: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:59:31: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 12:59:33: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 12:59:33: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 12:59:33: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000
+2022-03-17 14:09:15: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master1:3306?connect-timeout=5000
+2022-03-17 14:09:15: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s:3306?connect-timeout=5000
+2022-03-17 14:09:15: Info: About to connect to MySQL at: mysql://rvtadmin@microk8s-master3:3306?connect-timeout=5000

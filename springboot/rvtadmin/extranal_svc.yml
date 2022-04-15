@@ -1,0 +1,13 @@
+  kind: "Service"
+  apiVersion: "v1"
+  metadata:
+    name: "external-python-service"
+  spec:
+    ports:
+      -
+        name: "python"
+        protocol: "TCP"
+        port: 5000
+        targetPort: 5000 
+        nodePort: 0
+    selector: {}

@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gateway-app
+  labels:
+    app: gateway-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: gateway-app
+  template:
+    metadata:
+      labels:
+        app: gateway-app
+    spec:
+      containers:
+        - name: gateway-app
+          image: 192.168.100.59:5000/gateway-server:latest
+          ports:
+            - containerPort: 9090

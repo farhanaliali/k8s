@@ -1,0 +1,28 @@
+
+# https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: eureka
+spec:
+  selector:
+    matchLabels:
+      app: eureka
+  serviceName: eureka
+  replicas: 1 # by default is 1
+  template:
+    metadata:
+      labels:
+        app: eureka
+    spec:
+      terminationGracePeriodSeconds: 10
+      containers:
+      - name: eureka
+        image:  harbor.rvt.com/ropay/eureka:1.5
+        ports:
+        - containerPort: 8761
+  
+---
+
+
+

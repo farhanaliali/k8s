@@ -1,0 +1,17 @@
+# https://kubernetes.io/docs/concepts/services-networking/service/
+apiVersion: v1
+kind: Service
+metadata:
+  name: jarger
+  namespace: istio-system
+spec:
+  selector:
+   app: jaeger
+  type: ClusterIP
+  ports:
+  - name: jarger
+    protocol: TCP
+    port: 80
+    targetPort: 9411
+    nodePort: 30001
+---

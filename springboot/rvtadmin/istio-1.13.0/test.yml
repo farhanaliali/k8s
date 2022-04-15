@@ -1,0 +1,2 @@
+gateway.networking.istio.io/bookinfo-gateway unchanged
+virtualservice.networking.istio.io/bookinfo unchanged

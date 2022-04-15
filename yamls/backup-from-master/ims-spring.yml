@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ims-spring
+  labels:
+    app: ims-spring
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ims-spring
+  template:
+    metadata:
+      name: ims
+      labels:
+        app: ims-spring
+    spec:
+      containers:
+      - name: ims-spring
+        image: farhanluckali/ims-spring:latest
+        ports:
+          - containerPort: 8090
+        volumeMounts:
+        - name: application-properties
+          mountPath: /application-properties
+      volumes:
+      - name: application-properties
+        configMap:
+          name: spring-properties

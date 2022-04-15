@@ -1,0 +1,29 @@
+version: '3.3'
+services:
+  rabbit:
+    image: "rabbitmq:3-management"
+    hostname: "rabbit"
+    environment:
+        RABBITMQ_ERLANG_COOKIE: ${co}
+        RABBITMQ_DEFAULT_USER:  ${default_user}
+        RABBITMQ_DEFAULT_PASS:  ${default_pass}
+        RABBITMQ_DEFAULT_VHOST: ${default_vhost}
+    ports:
+        - "15672:15672"
+        - "5672:5672"
+    labels:
+        NAME: "rabbitmq"    
+
+  postgres:
+      container_name: postgres
+      image: postgres:latest
+      restart: always
+      environment:
+        POSTGRES_USER: ${POSTGRES_USER}
+        POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+        POSTGRES_DB: ${POSTGRES_DB}
+        PGDATA: /var/lib/postgresql/data/pgdata
+      ports:
+        - "5432:5432"
+      volumes:
+        - ./init.sql:/docker-entrypoint-initdb.d/init.sql       

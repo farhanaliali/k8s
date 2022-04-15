@@ -1,0 +1,24 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+ name: test
+ annotations:
+    
+    nginx.ingress.kubernetes.io/rewrite-target: /$2
+    kubernetes.io/ingress.class: "nginx"
+spec:
+ rules:
+ - host: test.ropay.pk
+   http:
+     paths:
+     - path: /
+       pathType: Prefix
+       backend:
+         service:
+           name: nginx 
+           port:
+             number: 80
+ tls:
+   - hosts:
+      -   test.ropay.pk
+     secretName: test.ropay.pk

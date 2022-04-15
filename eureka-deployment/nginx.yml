@@ -1,0 +1,18 @@
+
+---
+apiVersion: traefik.containo.us/v1alpha1
+kind: IngressRoute
+metadata:
+  name: apirockville
+  namespace: default
+spec:
+  entryPoints:
+    - websecure
+  routes:
+    - match: Host(`iware.pk`)
+      kind: Rule
+      services:
+        - name: stable-grafana
+          port: 80
+  tls:
+     secretName: iware.pk

@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    run: nginx
+  name: nginx
+spec:
+  containers:
+  - args:
+    - test
+    image: nginx
+    name: nginx
+    command: ["/bin/bash"]
+    args: ["-c","echo 'Hi This is test' >  /usr/share/nginx/html/index.html "]
+    
+
+
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}

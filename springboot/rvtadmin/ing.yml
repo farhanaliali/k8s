@@ -1,0 +1,21 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+ name: test
+ annotations:
+         #   nginx.ingress.kubernetes.io/app-root: /rootapp
+         #   nginx.ingress.kubernetes.io/rewrite-target: /$2
+   kubernetes.io/ingress.class: public
+spec:
+ rules:
+ - host: test.emaple.com
+   http:
+     paths:
+     - path: /
+       pathType: Prefix
+       backend:
+         service:
+           name: service1
+           port:
+             number: 80
+

@@ -1,0 +1,75 @@
+############ links 
+
+https://www.server-world.info/en/note?os=Ubuntu_20.04&p=microk8s&f=1
+	
+
+
+############################                     How to Create MicroK8s HA cluster
+
+sudo snap install microk8s --classic --channel=1.23/stable
+############################    use
+     sudo usermod -a -G microk8s rvtadmin
+     sudo chown -f -R rvtadmin ~/.kube
+	 newgrp microk8s
+
+############################ Add node to cluster
+
+microk8s add-node
+
+From the node you wish to join to this cluster, run the following:
+microk8s join 192.168.70.35:25000/c971c77cdc221c3950a901e413f5bc78/078b1afc37bd
+
+
+Use the '--worker' flag to join a node as a worker not running the control plane, eg:
+microk8s join 192.168.70.35:25000/c971c77cdc221c3950a901e413f5bc78/078b1afc37bd --worker
+
+
+If the node you are adding is not reachable through the default interface you can use one of the following:
+microk8s join 192.168.70.35:25000/c971c77cdc221c3950a901e413f5bc78/078b1afc37bd
+
+
+############################  Enable some basic addon
+
+microk8s enable dns dashboard storage
+
+microk8s status       ## you can see the list of available addons and the ones currently enabled.
+
+
+
+
+################### 5. Host your first service in Kubernetes
+
+microk8s kubectl create deployment microbot --image=dontrebootme/microbot:v1
+microk8s kubectl scale deployment microbot --replicas=2
+
+microk8s kubectl expose deployment microbot --type=LoadBalancer --port=80 --name=microbot-service
+
+microk8s kubectl get all
+
+
+############### Some Admistration Commands
+
+
+    microk8s status: Provides an overview of the MicroK8s state (running / not running) as well as the set of enabled addons
+    microk8s enable: Enables an addon
+    microk8s disable: Disables an addon
+    microk8s kubectl: Interact with kubernetes
+    microk8s config: Shows the kubernetes config file
+    microk8s istioctl: Interact with the istio services; needs the istio addon to be enabled
+    microk8s inspect: Performs a quick inspection of the MicroK8s intallation
+    microk8s reset: Resets the infrastructure to a clean state
+    microk8s stop: Stops all kubernetes services
+    microk8s start: Starts MicroK8s after it is being stopped
+
+##################################################
+Until next time, stop all MicroK8s services:
+
+microk8s stop
+
+
+############### ingress setting 
+when we create ingress resource 
+
+add kubernetes.io/ingress.class: public      annotation to use NGINX Ingress created by microk8s ingress plugin
+
+
