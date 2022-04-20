@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: rabbitmq
+  name: rabbitmq
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: rabbitmq
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: rabbitmq
+    spec:
+      containers:
+      - image: docker.io/rabbitmq:management
+        name: rabbitmq
+        env:
+         - name:  RABBITMQ_DEFAULT_USER
+           value: root
+         - name: RABBITMQ_DEFAULT_PASS
+           value: iceland
+         - name: RABBITMQ_DEFAULT_VHOST
+           value: /
+
+

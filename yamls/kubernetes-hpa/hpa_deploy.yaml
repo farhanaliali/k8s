@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: php-apache
+  name: php-apache
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: php-apache
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: php-apache
+    spec:
+      containers:
+      - image: harbor.rockvillegroup.com/library/php-test-hpa:1.1
+        name: php-test-hpa
+        resources:
+                requests:
+                       memory: "64Mi"
+                       cpu: "250m"
+                limits:
+                        memory: "128Mi"
+                        cpu: "500m"
+status: {}

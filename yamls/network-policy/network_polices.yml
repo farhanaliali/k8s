@@ -1,0 +1,16 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: nginx-access
+  namespace: test-a
+spec:
+  podSelector:
+    matchLabels:
+            ns: "a"
+  policyTypes:
+   - Ingress
+  ingress:
+  - from:
+    - namespaceSelector:
+        matchLabels:
+                ns: "b"
